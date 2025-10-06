@@ -62,7 +62,18 @@ export default function Model2DarkTech() {
     },
   ]
 
-  const technologies = ["React", "Next.js", "TypeScript", "Node.js", "Python", "AWS", "Docker", "PostgreSQL"]
+  const technologies = [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Python",
+    "AWS",
+    "Docker",
+    "PostgreSQL",
+    "N8n",
+    "MySQL",
+  ]
 
   const scrollToContact = () => {
     const element = document.getElementById("contact")
@@ -137,13 +148,13 @@ export default function Model2DarkTech() {
                 Começar Agora
                 <ArrowRight className="w-5 h-5" />
               </motion.button>
-              <motion.button
+              {/* <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-8 py-4 border border-gray-700 rounded-lg font-semibold hover:bg-gray-900 transition-colors"
               >
                 Ver Projetos
-              </motion.button>
+              </motion.button> */}
             </div>
           </motion.div>
         </div>
